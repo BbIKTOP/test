@@ -1,0 +1,142 @@
+@font-face
+{
+    font-family: mono;
+    src: url("../fonts/Andale Mono.ttf");
+}
+
+@font-face
+{
+    font-family: arial;
+    src: url("../fonts/arial.ttf");
+}
+
+@font-face
+{
+    font-family: arialBlack;
+    src: url("../fonts/arialblack.ttf");
+}
+
+@font-face
+{
+    font-family: icons;
+    src: url("../fonts/fa-light-300.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: icons;
+    src: url("../fonts/fa-regular-400.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: icons;
+    src: url("../fonts/fa-solid-900.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: helv;
+    font-weight: 100;
+    src: url("../fonts/helveticaneuelight-webfont.ttf");
+}
+
+@font-face
+{
+    font-family: helv;
+    src: url("../fonts/helveticaneue-webfont.ttf");
+}
+
+@font-face
+{
+    font-family: helv;
+    font-weight: 200;
+    src: url("../fonts/helveticaneuemedium-webfont.ttf");
+}
+
+@font-face
+{
+    font-family: helv;
+    font-weight: bold;
+    src: url("../fonts/helveticaneuebold-webfont.ttf");
+}
+
+@font-face
+{
+    font-family: opensans;
+    font-weight: normal;
+    src: url("../fonts/OpenSans-CondLight.ttf");
+}
+
+@font-face
+{
+    font-family: opensans;
+    font-weight: bold;
+    src: url("../fonts/OpenSans-CondBold.ttf");
+}
+
+@font-face
+{
+    font-family: opensans;
+    font-weight: normal;
+    src: url("../fonts/OpenSans-CondLightItalic.ttf");
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: truth;
+    font-weight: normal;
+    src: url("../fonts/TruthCYR-Regular.ttf") ;
+}
+
+@font-face
+{
+    font-family: truth;
+    font-weight: 100;
+    src: url("../fonts/TruthCYR-Thin.ttf") ;
+}
+
+@font-face
+{
+    font-family: truth;
+    font-weight: 200;
+    src: url("../fonts/TruthCYR-Light.ttf") ;
+}
+
+@font-face
+{
+    font-family: truth;
+    font-weight: 500;
+    src: url("../fonts/TruthCYR-Medium.ttf") ;
+}
+
+@font-face
+{
+    font-family: truth;
+    font-weight: bold;
+    src: url("../fonts/TruthCYR-Bold.ttf") ;
+}
+
+@font-face
+{
+    font-family: truth;
+    font-weight: 800;
+    src: url("../fonts/TruthCYR-Black.ttf") ;
+}
+
+@font-face
+{
+    font-family: truth;
+    font-weight: 900;
+    src: url("../fonts/TruthCYR-Ultra.ttf") ;
+}
+
+
+

@@ -1,0 +1,125 @@
+
+div#topMenuOpener
+{
+    display: inline-block;
+    position: relative;
+    height: 5rem;
+    width: 1.5rem;
+    float: left;
+    margin: 0 0 0 1rem;
+    border: 0px solid #f00;
+}
+
+.menuIconCheckbox
+{
+    display: none;
+}
+
+div#topMenuOpener > label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5rem;
+    height: 5rem;
+    display: inline-block;
+    border: 0px solid #f00;
+    z-index: 3;
+    cursor: pointer;
+}
+
+div#topMenuOpener div#menuIcon
+{
+    position: relative;
+    border: 0px solid #f00;
+    margin: 1.75rem auto;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    height: 1.5rem;
+    overflow: visible;
+    z-index: 2;
+    box-sizing: content-box;
+}
+
+div#topMenuOpener > div#menuIcon div
+{
+    position: absolute;
+    display: block;
+    width: 1.5rem;
+    height: .2rem;
+    background: #fff;
+    transform: rotate(-180deg);
+    transition: all .2s ease-in-out;
+}
+
+div#topMenuOpener > div#menuIcon div:nth-child(1)
+{
+    top: 0;
+}
+
+div#topMenuOpener > div#menuIcon div:nth-child(2)
+{
+    top: .6rem;
+    width: 1.5rem;
+    left: 0;
+}
+
+div#topMenuOpener > div#menuIcon div:nth-child(3)
+{
+    top: 1.2rem;
+}
+
+div#topMenuOpener input:checked ~ div#menuIcon div
+{
+    background: #fff;
+    transition: all .3s ease-in-out;
+}
+
+div#topMenuOpener input:checked ~ div#menuIcon div:nth-child(1)
+{
+    transform: rotate(45deg);
+    top: 50%;
+}
+
+div#topMenuOpener input:checked ~ div#menuIcon div:nth-child(2)
+{
+    width: 0;
+    left: 1rem;
+}
+
+div#topMenuOpener input:checked ~ div#menuIcon div:nth-child(3)
+{
+    transform: rotate(-45deg);
+    top: 50%;
+}
+
+div#menucontainer
+{
+    position: absolute;
+    top: 5rem;
+    left: -1rem;
+    width: 20em;
+    max-height: 0;
+
+    /*
+    background-image: url("../img/bg/dots2lt.png");
+    */
+
+
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    overflow: hidden;
+    transition: max-height .2s ease-in-out;
+}
+
+div#topMenuOpener input:checked ~ div#menucontainer
+{
+    overflow: hidden;
+    max-height: 90vh;
+    transition: max-height .2s ease-in-out;
+
+    backdrop-filter: blur(.1em);
+    -webkit-backdrop-filter: blur(.1em);
+}

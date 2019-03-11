@@ -1,0 +1,58 @@
+
+div.browsersizes
+{
+    font-size: 80%;
+    width: 200px;
+    height: 100px;
+    background: #fe9;
+}
+
+div#d1
+{
+    box-sizing: border-box;
+}
+
+div#d2
+{
+    box-sizing: border-box;
+    border: 3px solid #000;
+}
+
+div#d3
+{
+    box-sizing: border-box;
+    border: 3px solid #000;
+    padding: 13px;
+}
+div#d4
+{
+    box-sizing: content-box;
+}
+div#d5
+{
+    box-sizing: content-box;
+    border: 11px solid #000;
+}
+div#d6
+{
+    box-sizing: content-box;
+    border: 3px solid #000;
+    padding: 13px;
+}
+
+div#d7
+{
+    box-sizing: padding-box;
+}
+div#d8
+{
+    box-sizing: padding-box;
+    border: 3px solid #000;
+}
+div#d9
+{
+    box-sizing: padding-box;
+    border: 3px solid #000;
+    padding: 13px;
+}
+

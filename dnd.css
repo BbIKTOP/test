@@ -1,0 +1,54 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+
+*
+{
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+div#droptarget1,
+div#droptarget2
+{
+    width: 150em;
+    height: 20em;
+    margin: 3em;
+    border: 1px solid #759;
+    background: #95f;
+    font-size: 50%;
+    overflow: scroll;
+    position: relative;
+    padding: .5em;
+}
+
+div#dropcover1,
+div#dropcover2
+{
+    width: 20em;
+    height: 7em;
+    border: 1px solid #000;
+    background: #000;
+    opacity: .3;
+    position: absolute;
+    top: 3em;
+    left: 35%;
+}
+
+.move
+{
+    z-index: 3;
+}
+
+img.move
+{
+    border: 1px solid #000;
+}
+
+
+
